@@ -1,0 +1,60 @@
+.block {
+  width: 500px;
+  height: 500px;
+  background: red;
+  position: relative;
+}
+
+.block-element {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+
+@media (max-aspect-ratio: 10/3) {
+  .block {
+    background: yellow;
+  }
+}
+
+@media (max-aspect-ratio: 8/2) {
+  .block {
+    background: green;
+  }
+}
+
+@media (max-aspect-ratio: 6/2) {
+  .block {
+    background: blue;
+  }
+}
+
+@media (max-aspect-ratio: 5/2) {
+  .block {
+    background: violet;
+  }
+}
+
+@media (max-aspect-ratio: 4/2) {
+  .block {
+    background: black;
+  }
+}
+
+@media (max-aspect-ratio: 3/2) {
+  .block {
+    background: saddlebrown;
+  }
+}
+
+@media (max-aspect-ratio:2/1) {
+  .block {
+    background: pink;
+  }
+}
