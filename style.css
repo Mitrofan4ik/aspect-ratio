@@ -17,25 +17,25 @@
 }
 
 
-@media (max-aspect-ratio: 10/3) {
+@media (max-aspect-ratio: 21/9) {
   .block {
     background: #808080;
   }
 }
 
-@media (max-aspect-ratio: 8/2) {
+@media (max-aspect-ratio: 16/9) {
   .block {
     background: #ffff00;
   }
 }
 
-@media (max-aspect-ratio: 6/2) {
+@media (max-aspect-ratio: 14/10) {
   .block {
     background: #0000ff;
   }
 }
 
-@media (max-aspect-ratio: 5/2) {
+@media (max-aspect-ratio: 4/3) {
   .block {
     background: #ee82ee;
   }
