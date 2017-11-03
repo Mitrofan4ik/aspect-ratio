@@ -1,7 +1,7 @@
 .block {
   width: 500px;
   height: 500px;
-  background: red;
+  background: #cccccc;
   position: relative;
 }
 
@@ -19,42 +19,42 @@
 
 @media (max-aspect-ratio: 10/3) {
   .block {
-    background: yellow;
+    background: #808080;
   }
 }
 
 @media (max-aspect-ratio: 8/2) {
   .block {
-    background: green;
+    background: #ffff00;
   }
 }
 
 @media (max-aspect-ratio: 6/2) {
   .block {
-    background: blue;
+    background: #0000ff;
   }
 }
 
 @media (max-aspect-ratio: 5/2) {
   .block {
-    background: violet;
+    background: #ee82ee;
   }
 }
 
 @media (max-aspect-ratio: 4/2) {
   .block {
-    background: black;
+    background: #000000;
   }
 }
 
 @media (max-aspect-ratio: 3/2) {
   .block {
-    background: saddlebrown;
+    background: #8b4513;
   }
 }
 
 @media (max-aspect-ratio:2/1) {
   .block {
-    background: pink;
+    background: #ffc0cb;
   }
 }
